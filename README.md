@@ -1,6 +1,6 @@
 # Comparative Evaluation of CPU and NPU Inference Frameworks for Edge LLMs
 
-This repository contains the workflow and evaluation scripts for the CS 259 Capstone Project
+This repository contains the workflow and evaluation scripts for the Capstone Project
 
 It demonstrates using two inference frameworks: llama.cpp & ExecuTorch on Snapdragon 8 Elite. 
 
@@ -155,7 +155,7 @@ python -m extension.llm.export.export_llm \
     --config examples/models/llama/config/llama_xnnpack_qat.yaml \
     +base.model_class="llama3_2" \
     +base.checkpoint="${LLAMA_QUANTIZED_CHECKPOINT:?}" \
-    +base.params="${LLAMA_PARAMS:?}" \
+    +base.params="${LLAMA_PARAMS:?}" 
 ```
 
 
@@ -193,7 +193,7 @@ To run the model the Oryon CPU, use the standard `llama_main` runner.
 ./llama_main \
     --model_path <cpu_model>.pte \
     --tokenizer_path llama3/tokenizer.model \
-    --prompt \"Once upon a time\" \
+    --prompt "Once upon a time" \
     --seq_len 1024"
 
 ```
