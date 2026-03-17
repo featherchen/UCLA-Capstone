@@ -6,9 +6,9 @@ It demonstrates using two inference frameworks: llama.cpp & ExecuTorch on Snapdr
 
 ## llama.cpp
 
-We use Qualcomm's fork of llama.cpp. A specific [version](llama.cpp/) has been noted, since Qualcomm keeps updating the repo. A newer repo is expected to have better support for the NPU.
+We use Qualcomm's fork of llama.cpp. A specific [version](https://github.com/qualcomm/llama.cpp/tree/1f5accb8d0056e6099cd5b772b1cb787dd590a13) has been noted, since Qualcomm keeps updating the repo. A newer repo is expected to have better support for the NPU.
 
-Then follow the [instructions](./cs259-hexagon-llama-cpp/) to run tests on different models.
+Then follow the [instructions](https://github.com/OswaldHe/cs259-hexagon-llama-cpp/tree/68c91822e2099fd9426d1c4e539b6843f722a558) to run tests on different models.
 
 ## ExecuTorch
 
