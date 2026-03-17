@@ -1,3 +1,9 @@
 [submodule "executorch"]
 	path = executorch
 	url = git@github.com:featherchen/executorch.git
+[submodule "cs259-hexagon-llama-cpp"]
+	path = cs259-hexagon-llama-cpp
+	url = https://github.com/OswaldHe/cs259-hexagon-llama-cpp.git
+[submodule "llama.cpp"]
+	path = llama.cpp
+	url = https://github.com/qualcomm/llama.cpp
